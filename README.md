@@ -16,6 +16,9 @@ PySaved is a simple GUI for PyInstaller, a program that converts Python (2.6-2.7
 ## Usage
 You have to run /PySaved/run.py and follow the displayed instructions.
 
+## Screenshots
+![Screenshot1](http://www.arnehannappel.de/images/pysaved/ps01-small.png)
+![Screenshot2](http://www.arnehannappel.de/images/pysaved/ps04-small.png)
 
 ##Links
 * [Website of PySaved](http://arnehannappel.de/index.php/projekte/pysaved)
