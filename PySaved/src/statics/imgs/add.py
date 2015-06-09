@@ -1,0 +1,19 @@
+from wx.lib.embeddedimage import PyEmbeddedImage
+
+add = PyEmbeddedImage(
+    "iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAABHNCSVQICAgIfAhkiAAAAAlw"
+    "SFlzAAABsQAAAbEBYZgoDgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoA"
+    "AAKbSURBVEiJxZbNjhNHFIW/U+2x27JHowjBYjBSFgEJaSIW2WaXDZoNWx6H9+AJ0KzyADwA"
+    "iNUoEkEKK35GM0qkgDBut911WFTZ7VGIcC/GtFTq6urqc+4999a9jW22GcAE8Q7wV4d4Cexv"
+    "i9dj++sIc8ikeM5YHy+9+RCvcxbvATeBP7cB60Kc6fdecac4Q2i99mLxE2f1vS4w3YnlIXiM"
+    "ASGMKSi7wnQnLihBI4zwyhgNrp5YDMGjS1IH78DjoBJpRCRkQ0zYhdTyENMgh9YYukstaQIc"
+    "bbH3l0SsEjAoAAK8EeNfJf24BdYfPcQzzOFWZhYs2VcPGAFFXjUHKghEIo+3whHvk8WTcMrP"
+    "/ZcUHgADRB+pn+5Oc+gzlvhBwuojiuxxBJb8E83MEbPArkFzYEGkxq4xc0zN6eIOb+JRivEo"
+    "fOJ2uIAwBJfgEmmIKZFLrJjOrUtQmQyijxHQADXXwhyogTlQtUMz7ApRIVW8bg4hbiSXEbKy"
+    "F0rPiBgCckAEUAEUmbQkJeecVK+X4AKU9toBJMjfmhYbaDMzie92msuDovG6VKSGYJpERJ09"
+    "jnnduZZ5jWWtGgkbJSd7bExQJGJEBEVMTKBqEA1iiVlkY52f2xijGrFIRqnBTt+l95FAxJgU"
+    "tByjgpqeqrUUaiXZmIsD1TwYnjPIkq6O0zSa3+c3mLrN9JUCK29X86UHNPR7wEMafqNpVf6f"
+    "6xYzH3PRnHOrmEKOWyDyNu7zdxwDT4B/vwUEPO3ZPgFOvrVT0n3gGDzD+pwTLsUwei9ve2T7"
+    "ivpxVIU8ZRUS20SGXWG6E5sKNF23RWEi4x0QewaeEnLypaMz3wExFegTcaMfN1RXT9zo8388"
+    "tndAfFrf5a8wubT2MV7rjPO9/qu/ALenoXzwz5SuAAAAAElFTkSuQmCC")
+getaddBitmap = add.GetBitmap
