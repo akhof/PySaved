@@ -269,7 +269,7 @@ class MyFrame(wx.Frame):
             self.input_icon.SetValue(dia.GetPath())
 
     def search_execfile(self, event):
-        dia = wx.FileDialog(self, "Select a file to open", wildcard="Python-files (*.py)|*.py|Compiled Python-files (*.pyc)|*.pyc", style=wx.FD_OPEN)
+        dia = wx.FileDialog(self, "Select a file to open", wildcard="Python-files (*.py)|*.py", style=wx.FD_OPEN)
         if dia.ShowModal() == wx.ID_OK:
             self.input_execfile.SetValue(dia.GetPath())
 
