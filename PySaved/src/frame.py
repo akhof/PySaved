@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import wx, sys, thread, time, os
-import statics, builder, recope
+import statics, builder
 from Project import Project
 
 class MyFrame(wx.Frame):
