@@ -103,15 +103,18 @@ class MyFrame(wx.Frame):
         self.input_execfile.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
         self.button_search_execfile.SetSize(self.button_search_execfile.GetBestSize())
         self.radiobox_console.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
-        self.radiobox_console.SetSelection(0)
+        try: self.radiobox_console.SetSelection(0)
+        except: pass
         self.label_pathstosearchin.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, ""))
         self.list_pathstosearchin.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
-        self.list_pathstosearchin.SetSelection(0)
+        try: self.list_pathstosearchin.SetSelection(0)
+        except: pass
         self.button_pathstosearchin_add.SetSize(self.button_pathstosearchin_add.GetBestSize())
         self.button_pathstosearchin_edit.SetSize(self.button_pathstosearchin_edit.GetBestSize())
         self.button_pathstosearchin_del.SetSize(self.button_pathstosearchin_del.GetBestSize())
         self.label_hiddenmodules.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, ""))
-        self.list_hiddenmodules.SetSelection(0)
+        try: self.list_hiddenmodules.SetSelection(0)
+        except: pass
         self.label_outpath.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, ""))
         self.input_outpath.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
         self.search_outpath.SetSize(self.search_outpath.GetBestSize())
@@ -119,13 +122,15 @@ class MyFrame(wx.Frame):
         self.input_temppath.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
         self.search_temppath.SetSize(self.search_temppath.GetBestSize())
         self.radiobox_saveas.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
-        self.radiobox_saveas.SetSelection(0)
+        try: self.radiobox_saveas.SetSelection(0)
+        except: pass
         self.checkbox_debug.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
         self.checkbox_unicode.SetValue(1)
         self.bitmap_start.SetSize(self.bitmap_start.GetBestSize())
         self.label_log.SetFont(wx.Font(11, wx.DEFAULT, wx.NORMAL, wx.BOLD, 0, ""))
         self.list_log.SetFont(wx.Font(8, wx.DEFAULT, wx.NORMAL, wx.NORMAL, 0, ""))
-        self.list_log.SetSelection(0)
+        try: self.list_log.SetSelection(0)
+        except: pass
 
     def __do_layout(self):
         main_sizer = wx.FlexGridSizer(3, 3, 0, 0)
